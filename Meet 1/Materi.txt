@@ -1,0 +1,61 @@
+- <!DOCTYPE>, <html>, <head>, <body>, <header>, <footer>,
+ <h1> - <h6>, <p>, <a>, <span>, 
+ <img>, <br>, <hr>, <form>, <input>, <button>
+
+- inline CSS, internal CSS, external CSS
+
+- selector seperti class, id, element
+
+- attribute CSS yang digunakan
+
+  Background:
+    - background-color
+    - background-image
+    - background-position
+    - background-size
+	auto, ditetapkan, cover, contain
+    - background-repeat
+	repeat, repeat-x, repeat-y, no-repeat, space, round
+    - background-origin
+	
+    - background-clip
+	border-box, padding-box, content-box
+    - background-attachment
+	scroll, fixed, local
+
+  Button:
+    - Border
+        width, border-style, color
+	border-radius
+	border-side
+    - Background
+	background-color
+    - Cursor
+
+  Display:
+    - none
+    - inline
+    - block
+    - inline-block
+    - flex
+    - grid
+	
+  Text:
+    - color
+    - text-align
+    - text-decoration
+    - text-transform
+    - text-indent
+    - letter-spacing
+    - line-height
+    - word-spacing
+    - white-space
+    - text-shadow
+	x, y, blur, color, otherShadow
+
+- CSS align-items
+    - flex-start
+    - flex-end
+    - stretch
+    - baseline
+    - center
