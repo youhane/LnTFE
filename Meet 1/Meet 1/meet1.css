@@ -1,0 +1,44 @@
+h3{
+    color: pink;
+    
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    letter-spacing: 20px;
+    line-height: 200px;
+    text-shadow: 10px 10px solid black;
+    -moz-
+}
+
+/* .judul {
+    color: red;
+}
+
+.warnaHijau {
+    color: green;
+} */
+
+#nama{
+    color: gold;
+}
+
+body{
+    background-image: url('image/pic1.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.iniButton{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    /* border-color: black;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid red;
+    cursor: grab;
+}
