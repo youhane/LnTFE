@@ -1,0 +1,98 @@
+table{
+    border-color: red;
+    border-width: 10px;
+    border-style: dashed;
+}
+
+td{
+    border-color: blue;
+    border-width: 15px;
+    border-radius: 50px;
+    border-top: 10px solid pink;
+    border-bottom-left-radius: 150px;
+}
+
+th{
+    border-color: yellow;
+    border-width: 20px;
+    color: cornflowerblue;
+    font-weight: 100;
+}
+
+table{
+    border-collapse: separate;
+}
+
+div{
+    background-color: grey;
+    /* background-image: url('pic1.jpg'); */
+    color: white;
+}
+
+.inputText{
+    background-color: blue;
+    margin: 100px;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
+
+.inputText h1{
+    color: yellow;
+}
+
+/* .button{
+    background-color: lightgrey;
+    color: black;
+    width: 20rem; 
+    
+    text-align: center;
+} */
+
+/* vh, vw, rem, em, px, ch, % */
+
+.button{
+    background-color: yellow;
+    color: black;
+    width: 50px;
+    padding: 10px;
+    border-radius: 20%;
+    border: 2px solid red;
+    text-align: center;
+}
+
+/* pseudoclass */
+
+.iniBuatTulisan{
+    display: inline-block;
+    /* inline -> dia bakal pakai seminim mungkin tempat yang ada */
+    /* block -> dia bakal makan 1 baris sendiri buat konten dia */
+    /* inline-block -> campuran dari inline sama block, jadi dia bakal ngambil 1 baris sendiri buat dia, tapi kalo misalkan sampingnya ada konten dia bakal geser */
+}
+
+.block{
+    background-color: lightblue;
+    display: block;
+    /* ukuran bisa diatur*/
+    width: 500px;
+}
+
+.inline{
+    background-color: yellow;
+    display: inline;
+    /* ukuran gabisa diatur */
+    width: 500px;
+}
+
+.inlineBlock{
+    background-color: lightcoral;
+    display: inline-block;
+    /* ukuran bisa diatur */
+    width: 100px;
+}
+
+.IniBuatContohinAlign{
+    align-items: stretch;
+}
