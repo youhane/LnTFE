@@ -1,0 +1,28 @@
+Review materi yang sudah dipelajari (20 menit)
+
+- Mengenalkan pengertian CSS selector beserta fungsinya
+	- tag
+	- .class
+	- #id
+	- element.element
+	- element element
+	- *
+	- element, element
+	- element > element (semua yang atasnya apa)
+	- element + element (pertama)
+	- element~element (semua yang sebelumnya apa)
+	- [attribute]
+	- [attribute=value]
+	- pseudoclasses
+		- active, after, before, checked, default, hover, focus
+	- is, not, nth-child, first, where
+- Mengenalkan pengertian precedence dan cara penggunaannya
+	- posisi di project
+	- id --> class --> tag
+	- !important
+- Mengenalkan media query
+	- screen
+		- max(319), 320 - 480, 481 - 768, 769 - 1024, 1025 - 1200, min(1201)
+	- print
+	- speech
+	- color
