@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+.home{
+    background-image: url('../assets/trees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    justify-content: center; 
+    /* justify content: kemana; <-- kiri ke kanan */
+    align-items: center;
+    /* align-items: kemana; <-- atas ke bawah */
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.title h1{
+    font-size: 4rem;
+    font-weight: 500;
+    height: 5rem;
+}
+
+.title hr{
+    width: 10rem;
+    color: white;
+}
+
+.title p{
+    font-size: .8rem;
+    padding-top: .3rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+}
+
+li, a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.about{
+    background-color: #464232;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.about h1{
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.fa-tree{
+    font-size: 10rem;
+    padding: 8rem 0;
+    /* padding: atas kanan bawah kiri (arah jarum jam); */
+}
+
+.about p{
+    font-size: 1.3rem;
+    padding: 0 20rem;
+}
+
+.contact{
+    background: linear-gradient(297.69deg, rgba(44, 187, 68, 0.2) 8.71%, rgba(0, 0, 0, 0) 88.45%), #354632;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+input, textarea{
+    color: black;
+    background-color: rgba(220, 220, 220, 0.84);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+form{
+    background: rgba(196, 196, 196, 0.29);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-left: 35rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+.contact h1{
+    font-size: 2.5rem;
+}
+
+form button{
+    background-color: #28A745;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+footer div{
+    display: flex;
+}
+
+.logo .fa-tree{
+    padding: 0;
+    font-size: 5rem;
+}
+
+.logo h1{
+    margin-top: 1rem;
+}
+
+.copyrigth h1{
+    font-size: 1rem;
+}
+
+.social{
+    font-size: 2rem;
+}
+
+.social i{
+    padding: 0 1rem;
+}
