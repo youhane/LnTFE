@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     scroll-behavior: smooth;
+    transition: all .2s; /*buat bikin animasi pas masuk/ada perubahan jadi ada transisi pelannya */
 }
 
 .home{
@@ -52,10 +53,14 @@ li, a{
     padding: 1rem;
 }
 
+a:hover{
+    border-bottom: 1px solid white;
+}
+
 .about{
     background-color: #464232;
     text-align: center;
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 
 .about h1{
@@ -65,7 +70,7 @@ li, a{
 
 .fa-tree{
     font-size: 10rem;
-    padding: 8rem 0;
+    padding: 10rem 0;
     /* padding: atas kanan bawah kiri (arah jarum jam); */
 }
 
@@ -86,6 +91,14 @@ input, textarea{
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 1rem;
+    resize: none; /* biar gabisa digede2in */
+    border: none;
+}
+
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+    /* biar kalo diklik gaada outline gitu */
 }
 
 form{
@@ -93,8 +106,9 @@ form{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    margin-left: 35rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2.5rem;
     border-radius: 1rem;
 }
@@ -110,6 +124,11 @@ form button{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+}
+
+form button:hover{
+    background-color: #1f8136;
 }
 
 footer{
