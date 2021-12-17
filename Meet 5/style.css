@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    transition: all .2s;
+}
+
+h1{
+    /* animation: gantiWarna 2s infinite alternate 1s; */
+    /* animation: namaAnimasi durasi iteration(Pengulangan) arahnya delay*/
+}
+
+.kotak{
+    position: absolute;
+    top: 30px;
+    animation: muter .5s infinite ;
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    transform: scale(2);
+    /* transform: matrix(1, 2, -1, 1, 80, 80); */
+    transform: rotate(20deg);
+    /* transform: perspective(3d); */
+    transform: translate(-10px, -30px);
+    transform: translateZ(20px);
+    transform: skew(20deg, 20deg);
+}
+
+.bulet{
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(25, 219, 25, 0.719);
+    border-radius: 50%;
+    /* cara tengahin apapun di css */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transition:apayangTerjadi  berapalama; */
+    transition: width 2s;
+    /* animation: gantiWarna 2s infinite alternate; */
+    filter: brightness(1500%);
+    filter: contrast(20%);
+    filter: blur(20px);
+    filter: grayscale(1);
+    /* filter: opacity(); */
+    filter: drop-shadow(-200px 200px 50px rgb(121, 196, 36));
+    /* filter: drop-shadow(x, y, blur, warna) */
+    box-shadow: 10px 10px 20px yellow inset;
+    -webkit-box-shadow: inset 46px 31px 139px 0px rgba(142,151,242,0.75);
+    -moz-box-shadow: inset 46px 31px 139px 0px rgba(142,151,242,0.75);
+    box-shadow: inset 46px 31px 139px 0px rgba(142,151,242,0.75);
+}
+
+.bulet:hover{
+    filter: brightness(20%);
+    filter: drop-shadow(-200px 200px 50px rgb(121, 196, 36));
+}
+
+/* buat bikin variabel di css */
+:root{
+    --bgColor: #f50000;
+    --webFont: 'Arial', sans-serif;
+}
+
+.kotak{
+    background-color: var(--bgColor);
+    top: 50%;
+}
+
+h1{
+    font: var(--webFont);
+}
+
+/* custom animations */
+@keyframes gantiWarna {
+    from{
+        background-color: yellow;
+        color: white;
+    }
+    to{
+        background-color: red;
+        color: blue;
+        width: 75%;
+    }
+}
+
+@keyframes jump{
+    0%{
+        top: 30px;
+    }
+    50%{
+        top: 50px;
+        background-color: red;
+    }
+    75%{
+        top: 75px;
+        background-color: yellow;
+    }
+    100%{
+        top: 100px;
+        background-color: green;
+    }
+}
+
+@keyframes geser {
+    from{
+        background-color: aqua;
+    }
+    50%{
+        background-color: green;
+        width: 10px;
+    }
+    to{
+        background-color: black;
+        border-radius: 20px;
+    }
+}
+
+@keyframes muter {
+    from{
+        transform: rotate(0deg);
+        border-radius: 10px;
+    }
+    to{
+        transform: rotate(180deg);
+        border-radius: 20px;
+    }
+}
