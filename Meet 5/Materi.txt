@@ -1,0 +1,6 @@
+Animation
+Keyframes, from to, %, from % to
+Transform, rotateX, skewY, scaleZ, translate, translate3d, perspective
+Transition, transition: apa berapaLama speed delay
+Filter, drop-shadow(y x blur spread color)
+Box Shadow, box-shadow: y x blur spread color
