@@ -1,0 +1,63 @@
+*{
+    /* css normalization */
+    margin: 0;
+    padding: 0;
+}
+
+.divH1{
+    display: flex;
+    background-color: yellow;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column-reverse;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: unset; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+.divH1 h1{
+    background-color: red;
+    margin: 1rem;
+}
+
+.divDalemDiv{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: greenyellow;
+    display: flex;
+    /* width: 50%; */
+    height: 10rem;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    align-items: center;
+    text-align: center;
+}
+
+.divDalemDiv div {
+    background-color: azure;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.gunung{
+    display: flex;
+    background-color: bisque;
+    padding: 1rem;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gunung img{
+    margin: 1rem;
+    width: 30%;
+    height: 10rem;
+}
