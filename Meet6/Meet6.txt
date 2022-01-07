@@ -1,0 +1,23 @@
+Flexbox
+ - flex-start
+ - flex-end
+ - center
+ - space-between
+ - space-around
+ - space-evenly
+
+Grid
+ - grid-template-columns
+ - grid-template-rows
+ - grid-gap
+ - grid-row-gap
+ - grid-column-gap
+
+Review animasi sama media query
+
+Javascript
+ - Variables
+ - Print
+ - Function
+ - DOM
+ - Validation
