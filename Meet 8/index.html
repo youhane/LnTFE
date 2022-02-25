@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="tagP">Ini tag p</p>
+
+    <form action="">
+        <input type="text" name="" id="">
+    </form>
+</body>
+<script>
+    // int
+    // integer
+    // String
+    // char 
+    // char []
+    // bool
+    // boolean
+    // double
+    // float
+
+    // int number = 1;
+    // String str = 'new string'
+
+    var iniVariable = 'string';
+    const iniConst = 1;
+    let iniLet = '02793120'
+
+    // var iniArray = [1, 2, 4, 4, 6, 123]
+    // var iniArrayKosong = []
+    // ['string', 'februari', 'dst']
+    // char str[100] = ''
+    // Array namaArray = newArray<String>
+
+    // [18, 'NamanaySiapa',  'RumahnyaDimana', '22/22/2222', 3]
+
+    // 10 
+    // 'String'
+    // 'True' 
+    // "False"
+    // ``
+    // integer, string, boolean, date //dd/mm/yy
+    // array, object, array of objects
+
+    const namaObject = {
+        namaLengkap: 'Meja',
+        jumlahKaki: [1, 2, 13],
+        warna: ['merah', 'biru', 'hijau'],
+        rusak: false,
+    }
+    // console.log('Ini di asdasdasd')
+    // alert('Ini Alert')
+    // namaObject.jumlahKaki
+    console.log(namaObject)
+
+    var namaObjectBaru = 'Kursi'
+    namaObject.namaLengkap = namaObjectBaru
+    console.log(namaObject)
+
+    // JSON
+    // JavaScript Object Notation
+    // Array yang isinya Object
+    const JSONEXAMPLE = [
+        namaObject,
+        {
+            id: 'BNCC20184',
+            username: 'Username',
+            ttl: 'Jakarta, 14 Januari 2912'
+        },
+    ]
+
+    console.log(JSONEXAMPLE[0].warna[2])
+    // API
+
+    // Logical Operators
+    // ==
+    // ===
+    // >=
+    // <=
+    // !=
+    console.log(5 !== '5')
+    console.log(5 != '5')
+    // '5'
+    // datatype: string
+    // value: 5
+    
+    // 5
+    // datatype: integer
+    // value: 5
+
+    // ==
+    // value == value benar/tidak
+
+    // ===
+    // value === value benar/tidak
+    // datatype === datatype benar/tidak
+
+    var telur = 10
+    var kecap = 10
+
+    // if(telur && kecap){
+    //     console.log('Beli keduanya')
+    // } else console.log('Pulang')
+
+
+    if(telur === 10 || telur > 5){
+        console.log('Beli 5')
+    }
+    else if(telur === 5){
+        console.log('Beli 3')
+    }
+    else if(telur > 1 && telur < 5){
+        console.log('Beli 100')
+    }
+    else ('Pulangggg')
+
+    // if(role === 'admin' || password === 'bukanUser'){
+    //     masuk ke page admin
+    // } else masuk ke page user
+
+    console.log(telur === 10 && 'beli 10 yang ini')
+
+    // + - * / %
+    console.log(5 + 10 * 2 - 1 / 3 % 10)
+    telur++
+    telur -= 5
+    telur = telur - 5
+    telur /= 2
+    telur = telur / 2
+    console.log(telur)
+
+    // document.write(JSONEXAMPLE[1].id)
+
+    var tagP = document.getElementById('tagP')
+    console.log(tagP)
+    tagP.innerHTML = 'Ini ganti kata-katanya'
+
+    for (let index = 0; index < 10; index++) {
+        console.log(index)
+    }
+
+    var arrayBaru = [123123, 1231241245, 55666, 334324, 3412]
+    arrayBaru.forEach(elemenArrayBaru => {
+        console.log(elemenArrayBaru)
+    });
+
+    var index = 0;
+    while (index < 10) {
+        console.log(index)
+        index++;
+    }
+</script>
+</html>
