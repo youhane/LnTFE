@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="iniP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius beatae sint magni repellendus non! Fugit adipisci ab tempore, deleniti laborum voluptatum quibusdam dolores. Tenetur nihil repellendus laudantium aspernatur atque!</p>
+    <button id="button">Ini Button</button>
+
+    <div>
+        <button id="plus" onclick="changeColor()">+</button>
+        <p id="angka">0</p>
+        <button id="minus" onmouseenter="changeValue()">-</button>
+    </div>
+
+    <script>
+        // var let const
+        var iniAngka1 = 1
+        var iniDua = 2
+
+        let iniLet3 = 3
+
+        function iniNamaFunction(iniParameter1, iniParameter2 = 3){
+            console.log(iniParameter1)
+            var iniHasilFunction = iniParameter1 + iniParameter2
+
+            var inihasilnya = iniAngka1 + iniDua
+
+            // console.log(iniHasilFunction)
+        }
+
+        function iniFunctionBaru(){
+            var iniLetBaru = 300
+            // console.log(iniLet3)
+            iniNamaFunction(iniLetBaru)
+        }
+        
+        const PI = 3.14
+
+        function ubahNilaiConst(iniConstnya){
+            return iniConstnya = 200 
+        }
+        
+        // PI = ubahNilaiConst(3.14)
+
+        // console.log(iniLetBaru)
+        iniNamaFunction(iniAngka1, 300)
+        iniFunctionBaru()
+    </script>
+    <script>
+        const iniP = document.getElementById('iniP')
+        const button = document.getElementById('button')
+        // document.getElementById('namaId')
+        
+
+        button.addEventListener('click', () => {
+            let clicked = false
+            if(clicked === true){
+                iniP.style.color = 'red'
+                clicked = false
+            } else if(clicked === false){
+                clicked = true
+                iniP.style.color = 'blue'
+            }
+            console.log(iniP.style.color)
+        })
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
