@@ -1,0 +1,10 @@
+.merah{
+    background-color: red;
+}
+.paragraph2{
+    background-color: lightblue;
+    display: none;
+}
+#paragraph3{
+    display: block;
+}
